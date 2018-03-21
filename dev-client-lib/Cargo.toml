@@ -1,0 +1,17 @@
+[package]
+name = "dev-client-lib"
+version = "0.1.0"
+authors = ["Scott J Maddox"]
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+arrayvec = "0.4"
+
+[dependencies.live-reload]
+git = "https://github.com/scottjmaddox/live-reloading-rs"
+branch = "develop"
+default-features = false
+features = []

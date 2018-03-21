@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "dev-client",
+    "dev-client-lib",
+]

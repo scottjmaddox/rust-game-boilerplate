@@ -1,0 +1,18 @@
+[package]
+name = "dev-client"
+version = "0.1.0"
+authors = ["Scott J Maddox"]
+publish = false
+
+[dependencies]
+lazy_static = "1.0"
+gfx = "0.17"
+gfx_core = "0.8"
+gfx_window_sdl = "0.8"
+sdl2 = "0.31"
+sdl2-sys = "0.31"
+dev-client-lib = { path = "../dev-client-lib" }
+
+[dependencies.live-reload]
+git = "https://github.com/scottjmaddox/live-reloading-rs"
+branch = "develop"
